@@ -6,12 +6,12 @@
     "type": "project",
     "require": {
         "php": "^7.3|^8.0",
-        "lumphp/laravel-lumen": "^8.0"
+        "lumphp/laravel-lumen": "^8.0",
+        "lumphp/service-provider": "^0.1"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Lum\\": "../src/"
+            "App\\": "app/"
         }
     },
     "config": {
