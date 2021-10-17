@@ -1,0 +1,14 @@
+{
+    "name": "lumphp/service-provider",
+    "type": "project",
+    "authors": [
+    ],
+    "require": {
+        "lumphp/laravel-lumen": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lum\\": "src/"
+        }
+    }
+}
